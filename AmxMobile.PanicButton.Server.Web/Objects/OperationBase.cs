@@ -16,6 +16,6 @@ namespace AmxMobile.PanicButton.Server.Web
         {
         }
 
-        internal abstract void Run(SimpleXmlPropertyBag values);
+        internal abstract void Run(SimpleXmlPropertyBag input, SimpleXmlPropertyBag output);
     }
 }

@@ -4,6 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using BootFX.Common;
+using BootFX.Common.Xml;
+using BootFX.Common.Data;
+using BootFX.Common.Services;
+using BootFX.Common.Management;
 
 namespace AmxMobile.PanicButton.Server.Web
 {
@@ -12,8 +17,8 @@ namespace AmxMobile.PanicButton.Server.Web
 
         void Application_Start(object sender, EventArgs e)
         {
-            // Code that runs on application startup
-
+            if (!(Runtime.IsStarted))
+                PanicRuntime.Start("Web");
         }
 
         void Application_End(object sender, EventArgs e)

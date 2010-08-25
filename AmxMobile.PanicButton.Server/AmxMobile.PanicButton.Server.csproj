@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F2091CA-6B7D-4E6D-921A-893DE0F25699}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AmxMobile.PanicButton.Server</RootNamespace>
+    <AssemblyName>AmxMobile.PanicButton.Server</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BootFX.Common">
+      <HintPath>..\..\..\..\..\sluice\BootFX\Common\bin\BootFX.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\!Base\CustomData\CustomDataBase.cs" />
+    <Compile Include="Entities\!Base\CustomData\CustomDataCollectionBase.cs" />
+    <Compile Include="Entities\!Base\CustomField\CustomFieldBase.cs" />
+    <Compile Include="Entities\!Base\CustomField\CustomFieldCollectionBase.cs" />
+    <Compile Include="Entities\!Base\Resource\ResourceBase.cs" />
+    <Compile Include="Entities\!Base\Resource\ResourceCollectionBase.cs" />
+    <Compile Include="Entities\!Base\TableCatalogItem\TableCatalogItemBase.cs" />
+    <Compile Include="Entities\!Base\TableCatalogItem\TableCatalogItemCollectionBase.cs" />
+    <Compile Include="Entities\CustomData\CustomData.cs" />
+    <Compile Include="Entities\CustomData\CustomDataCollection.cs" />
+    <Compile Include="Entities\CustomField\CustomField.cs" />
+    <Compile Include="Entities\CustomField\CustomFieldCollection.cs" />
+    <Compile Include="Entities\Resource\Resource.cs" />
+    <Compile Include="Entities\Resource\ResourceCollection.cs" />
+    <Compile Include="Entities\TableCatalogItem\TableCatalogItem.cs" />
+    <Compile Include="Entities\TableCatalogItem\TableCatalogItemCollection.cs" />
+    <Compile Include="Objects\PanicRuntime.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AmxMobile.PanicButton.Server.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

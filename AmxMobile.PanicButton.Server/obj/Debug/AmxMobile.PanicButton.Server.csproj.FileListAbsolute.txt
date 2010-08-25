@@ -1,0 +1,7 @@
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\bin\Debug\AmxMobile.PanicButton.Server.dll
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\bin\Debug\AmxMobile.PanicButton.Server.pdb
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\bin\Debug\BootFX.Common.dll
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\bin\Debug\BootFX.Common.pdb
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\obj\Debug\AmxMobile.PanicButton.Server.dll
+C:\Code\AmxMobile\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server-1.0\AmxMobile.PanicButton.Server\obj\Debug\AmxMobile.PanicButton.Server.pdb
